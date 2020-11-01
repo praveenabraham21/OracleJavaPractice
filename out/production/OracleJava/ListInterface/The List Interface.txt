@@ -1,0 +1,23 @@
+What is List Interface?
+ - A list is an ordered collection. Sometimes, called as sequence;
+ - List may contain duplicate elements.
+
+What are the features of the list interface?
+ 1. Positional access:
+        Manipulate elements based on their numerical position in the list.
+        Manipulations such as get, set, add, addAll and remove.
+ 2. Search:
+        Search for a specified object returns the numerical position in the list.
+        Search method includes indexOf and lastIndexOf.
+ 3. Iteration:
+         List Iterator extends Iterator semantics to tak advantage of list's sequential nature.
+ 4. Range View:
+         The sublist method performs arbitrary range operation on the list.
+
+What are the list implementations?
+    1. Array List.
+    2. Linked List.
+
+How do you store an elements of an array to a list?
+1. for each loop to add each elements of an array to a new list.
+2. Arrays class method "asList", which passes array as argument.
